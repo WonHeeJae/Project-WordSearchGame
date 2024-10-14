@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "new_game_style.css";
+
+:root {
+  --gamemaker_input: rgb(250, 255, 228);
+}
+
+body {
+  background: rgb(250, 255, 228);
+}

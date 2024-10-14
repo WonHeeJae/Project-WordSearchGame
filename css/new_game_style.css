@@ -1,0 +1,94 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-new {
+  padding: 20px 0 20px 0;
+}
+.game-new div {
+  width: 80vw;
+}
+
+.game-new__label {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(93, 93, 92);
+}
+
+.game-new-title {
+  margin: 10px 0 10px 0;
+}
+
+.game-new__titleinput input {
+  width: 80vw;
+  height: 25px;
+  background-color: --gamemaker_input;
+}
+
+.game-new-title div {
+  margin: 5px 0 5px 0;
+}
+
+.game-new-Description {
+  margin: 10px 0 10px 0;
+}
+
+.game-new__desinput input {
+  width: 80vw;
+  height: 50px;
+  background-color: --gamemaker_input;
+}
+
+.game-new-Description div {
+  margin: 5px 0 5px 0;
+}
+
+.game-new-wordlist {
+  margin: 10px 0 10px 0;
+}
+
+.game-new-wordlist div {
+  margin: 5px 0 5px 0;
+}
+
+.game-new-user {
+  margin: 10px 0 10px 0;
+}
+
+.game-new-user div {
+  margin: 5px 0 5px 0;
+}
+
+.game-new__radio label {
+  font-size: 14px;
+  color: #999999;
+}
+
+.game-new_submit {
+  margin: 25px 0 10px 0;
+}
+/*
+.game-new__btn {
+  width: 80vw;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 193, 7);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+  */
+
+.game-new_submit button {
+  width: 80vw;
+  height: 50px;
+  border: 0px;
+  background-color: rgb(255, 193, 7);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
