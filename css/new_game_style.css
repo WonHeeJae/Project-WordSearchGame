@@ -49,19 +49,31 @@ form {
   margin: 10px 0 10px 0;
 }
 
-.game-new-wordlist div {
+#game-new-wordlisst__label {
   margin: 5px 0 5px 0;
+}
+
+.game-new-wordlist__div {
+  margin: 5px 0 5px 0;
+}
+
+.game-new-wordlist__innerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.game-new-wordlist__input input {
+  width: 15.5vw;
+  height: 30px;
 }
 
 .game-new-user {
   margin: 10px 0 10px 0;
 }
 
-.game-new-user div {
-  margin: 5px 0 5px 0;
-}
-
-.game-new__radio label {
+4 .game-new__radio label {
   font-size: 14px;
   color: #999999;
 }
